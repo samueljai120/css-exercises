@@ -12,6 +12,31 @@ img {
   font-weight: 900;
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.text {
+  text-align: center;
+  text-wrap:wrap;
+}
+
+.barberry, .chilli, .pepper, .saffron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 200px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;

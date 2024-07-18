@@ -27,3 +27,63 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* my answer*/
+
+body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul, a {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+.sidebar {
+  flex: 0 0 300px;
+  padding: 16px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.content {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  padding: 20px;
+  flex: 0 0 300px;
+  height: 300;
+}

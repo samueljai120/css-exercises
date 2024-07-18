@@ -68,31 +68,24 @@ button.cancel {
   color: royalblue;
 }
 /* my answer*/
+
 .modal {
-  padding: 20px;
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  padding: 16px;
 }
 
-.icon {
+.icon{
   flex-shrink: 0;
+  margin-right: 16px;
 }
 
-.top {
+.header {
+  font-weight: bolder;
+  font-size: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-
-.main {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.header {
-  font-weight: 900;
-  font-size: 20px;
-}
-.button {
-  margin-top: 5px;
+.text {
+  margin: 10px 0 20px 0;
 }
